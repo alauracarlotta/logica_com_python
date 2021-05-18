@@ -16,4 +16,4 @@ print(f"Você nasceu no dia {userBirthDay} de {userBirthMonth} de {userBirthYear
 number1 = int(input("Digite um número: "))
 number2 = int(input("Digite o segundo número: "))
 
-print(f"A soma entre {number1} e {number2} é {number1+number2}!")
+print(f"A soma entre {number1} e {number2} é {number1 + number2}!")
