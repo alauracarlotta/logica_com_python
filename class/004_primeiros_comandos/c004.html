@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="c004.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <title>Primeiros Comandos</title>
+</head>
+
+<body>
+
+    <h1>Curso de Lógica</h1>
+
+    <div class="show-info"></div>
+
+    <div id="inputName" class="">
+        <label for="userName"> Qual é o seu nome? 
+            <input type="text" name="userName" id="userName" required>
+        </label>
+
+        <button type="submit" onclick="sendInput()">Enviar</button>
+    </div>
+
+    <div id="aboutYou" class="tell-me-about-you">
+        <h3>Agora conta um pouquinho pra nós sobre você: </h3>
+
+        <form action="">
+            <label for="dayBirth"> Em que dia você nasceu?
+                <input id="dayBirth" type="number" required>
+            </label>
+        
+            <label for="monthBirth">Qual é o mês do seu aniversário? 
+                <input id="monthBirth" type="month" required>
+            </label>
+        
+            <label for="yearBirth">Em que ano você nasceu?
+                <input id="yearBirth" type="number" required>
+            </label>
+
+            <label for="userCity">Em que cidade você vive?
+                <input id="userCity" type="text" required>    
+            </label>
+
+            <label for="userProfession">Qual é a sua profissão?
+                <input id="userProfession" type="text" required>    
+            </label>
+
+            <label for="userHobby">Qual Hobby você mais pratica?
+                <input id="userHobby" type="text" required>    
+            </label>
+
+            <button onclick="sendForm()"type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <div id="logicTest" class="logic-teste">
+
+        <h3>Para seguir, prove que você não é um robô e siga os passos a seguir: </h3>
+
+        <label for="number1">Digite um número: 
+            <input id="number1" type="text">
+        </label> +
+        
+        <br>
+        <br>
+        <label for="number2"> Digite outro número: 
+            <input id="number2" type="text">
+        </label>
+        
+        <button title="Clique em 'calcular' para saber o resultado" onclick="Calculate()" type="submit">Calcular</button>
+
+    </div>
+
+    <script src="c004.js"></script>
+    
+</body>
+
+</html>
