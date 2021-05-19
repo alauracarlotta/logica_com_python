@@ -1,0 +1,16 @@
+.input-none {
+    display: none;
+}
+
+.tell-me-about-you {
+    display: none;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.logic-teste {
+    display: none;
+}
