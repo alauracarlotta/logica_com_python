@@ -17,6 +17,21 @@
     font-weight: bold;
 }
 
+.show-info-none {
+    display: none;
+}
+
 .logic-test {
+    display: none;
+}
+
+.calculate-result {
+    color: #F00;
+    display: block;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.button-finalizate {
     display: none;
 }

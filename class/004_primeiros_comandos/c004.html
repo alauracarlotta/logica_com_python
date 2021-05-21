@@ -19,7 +19,7 @@
             <input type="text" id="userName" required>
         </label>
 
-        <button type="submit" onclick="sendInput()">Enviar</button>
+        <button onclick="sendInput()" type="submit">Enviar</button>
     </div>
 
     <div id="aboutYou" class="tell-me-about-you">
@@ -49,7 +49,7 @@
             <input id="userHobby" type="text" required>    
         </label>
 
-        <button onclick="sendForm()"type="submit">Enviar</button>
+        <button onclick="sendInfos()" type="submit">Enviar</button>
 
     </div>
 
@@ -69,8 +69,14 @@
             <input id="number2" type="text">
         </label>
         
-        <button title="Clique em 'calcular' para saber o resultado" onclick="Calculate()" type="submit">Calcular</button>
+        <button id="buttonCalculate" title="Clique em 'calcular' para saber o resultado" onclick="calculate()" type="submit">Calcular</button>
 
+        <output id="calculateResult" class="calculate-result"></output>
+
+    </div>
+
+    <div id="buttonFinalizate" class="button-finalizate">
+        <button onclick="finalizateForm()" type="submit">Finalizar</button>
     </div>
 
     <script src="c004.js"></script>
