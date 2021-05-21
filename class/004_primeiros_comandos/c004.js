@@ -1,8 +1,8 @@
 let divAboutYou = document.querySelector("#aboutYou");
+let divUserName = document.querySelector("#inputName");
 
 function sendInput() {
     
-    let divUserName = document.querySelector("#inputName")
     const inputUserName = document.querySelector("#userName").value;
 
     let tagH1 = document.querySelector("h1");
@@ -25,6 +25,9 @@ function sendForm() {
 
     let divUserInfo = document.querySelector(".show-info");
 
+    divAboutYou.classList.add("tell-me-about-you");
+
     divUserInfo.innerHTML = `<br/> <div class="show-info">Obrigada por suas Infos: <br> Você nasceu no dia ${dayBirth} de ${monthBirth} de ${yearBirth}. Mora em ${userCity}. Sua profissão é ${userProfession} e o que seu hobby favorito é ${userHobby}!</div> <br/>`
 
+    window.location.reload() = false;
 }
