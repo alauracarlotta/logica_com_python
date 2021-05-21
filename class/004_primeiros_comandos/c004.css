@@ -6,13 +6,17 @@
     display: none;
 }
 
-form label {
+#aboutYou label {
     display: block;
     margin: 10px 0;
 }
 
-.logic-teste {
-    display: none;
+.show-info {
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
 }
 
-
+.logic-test {
+    display: none;
+}

@@ -1,5 +1,6 @@
 let divAboutYou = document.querySelector("#aboutYou");
 let divUserName = document.querySelector("#inputName");
+let divLogicTest = document.querySelector("#logicTest");
 
 function sendInput() {
     
@@ -16,18 +17,18 @@ function sendInput() {
 
 function sendForm() {
     
-    let dayBirth = document.querySelector("dayBirth").value;
-    let monthBirth = document.querySelector("monthBirth").value;
-    let yearBirth = document.querySelector("yearBirth").value;
+    let dayBirth = document.querySelector("#dayBirth").value;
+    let monthBirth = document.querySelector("#monthBirth").value;
+    let yearBirth = document.querySelector("#yearBirth").value;
     let userCity = document.querySelector("#userCity").value;
     let userProfession = document.querySelector("#userProfession").value;
-    let userHobby = document.querySelector("#userHobby").valu;
+    let userHobby = document.querySelector("#userHobby").value;
 
     let divUserInfo = document.querySelector(".show-info");
 
+    divUserInfo.innerHTML = `<br/> <div class="show-info">Obrigada por suas Infos: <br> Você nasceu no dia ${dayBirth} de ${monthBirth} de ${yearBirth}. Mora em ${userCity}. Sua profissão é ${userProfession} e o seu hobby favorito é ${userHobby}!</div> <br/>`;
+
     divAboutYou.classList.add("tell-me-about-you");
+    divLogicTest.classList.remove("logic-test");
 
-    divUserInfo.innerHTML = `<br/> <div class="show-info">Obrigada por suas Infos: <br> Você nasceu no dia ${dayBirth} de ${monthBirth} de ${yearBirth}. Mora em ${userCity}. Sua profissão é ${userProfession} e o que seu hobby favorito é ${userHobby}!</div> <br/>`
-
-    window.location.reload() = false;
 }
