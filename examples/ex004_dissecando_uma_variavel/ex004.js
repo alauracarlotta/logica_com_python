@@ -14,4 +14,6 @@ console.log(`11 ${variavel.indexOf('felizes')}`) // Retorna false
 console.log(`12 ${variavel.slice(0,12)}`) 
 console.log(`13 ${variavel.slice(12)}`) // Slice => Fatiar / A partir dê
 console.log(`14 ${variavel.replace('feliz', 'sortuda')}`)
+console.log(`15 ${variavel.slice(-3)}`)
+console.log(`16 ${variavel.split(' ')}`)
 
