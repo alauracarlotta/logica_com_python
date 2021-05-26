@@ -1,3 +1,5 @@
+"""EXERCÍCIO: Peça um valor ao usuário e mostre todas as informçaões desse valor!"""
+
 infoUser = input("Digite algo: ")
 
 print("O tipo primitivo de {} é: ".format(infoUser), type(infoUser))
@@ -11,4 +13,3 @@ print("{} é alfanumérico? ".format(infoUser), infoUser.isalnum())
 print("{} está em letras maiúsculas? ".format(infoUser), infoUser.isupper())
 print("{} está em letras minusculas? ".format(infoUser), infoUser.islower())
 print("{} está capitalizada? ".format(infoUser), infoUser.istitle()) #Quando há letras maiusculas e letras minusculas, tipo um título.
-
