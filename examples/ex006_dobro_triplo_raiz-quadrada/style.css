@@ -42,3 +42,11 @@ input {
 .answer {
     margin: 20px 40px 10px;
 }
+
+.error {
+    display: block;
+    color: #F00;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bolder;
+}

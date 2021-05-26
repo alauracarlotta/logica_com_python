@@ -58,3 +58,11 @@ input {
     text-align: left;
     width: 370px;
 }
+
+.error {
+    display: block;
+    color: #F00;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
