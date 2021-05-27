@@ -14,12 +14,12 @@ function calculate() {
     } else if (average >= 5) {
 
         divAnswer.innerHTML = "";
-        divAnswer.innerHTML += `<div class="answer">A sua média foi <strong>${average.toFixed(2)}</strong>!</div>`;
+        divAnswer.innerHTML += `<div class="answer">A sua média foi <strong>${average.toFixed(1)}</strong>!</div>`;
         divAnswer.innerHTML += `<div class="answer true">VOCÊ PASSOU!</div>`;
 
     } else {
 
-        divAnswer.innerHTML += `<div class="answer">A sua média foi <strong>${average.toFixed(2)}</strong>!</div>`;
+        divAnswer.innerHTML += `<div class="answer">A sua média foi <strong>${average.toFixed(1)}</strong>!</div>`;
         divAnswer.innerHTML += `<div class="answer false">Infelizmente, você não passou!</div>`;
 
     }
