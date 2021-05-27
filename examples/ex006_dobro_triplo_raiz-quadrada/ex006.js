@@ -10,8 +10,9 @@ function calculate() {
     } else {
 
         divAnswer.innerHTML = "";
-        divAnswer.innerHTML += `<div class="answer">O dobro de ${userInputNumber} é <strong>${userInputNumber**2}</strong>!</div>`;
-        divAnswer.innerHTML += `<div class="answer">O triplo de ${userInputNumber} é <strong>${userInputNumber**3}</strong>!</div>`;
-        divAnswer.innerHTML += `<div class="answer">A raiz quadrada de ${userInputNumber} é aproximadamente <strong>${(userInputNumber**(1/2)).toFixed(2)}</strong>!</div>`;
+        divAnswer.innerHTML += `<div class="answer">O dobro de ${userInputNumber} é <strong>${userInputNumber*2}</strong>!</div>`;
+        divAnswer.innerHTML += `<div class="answer">O triplo de ${userInputNumber} é <strong>${userInputNumber*3}</strong>!</div>`;
+        divAnswer.innerHTML += `<div class="answer">A raiz quadrada de ${userInputNumber} é aproximadamente <strong>${(Math.pow(userInputNumber,(1/2))).toFixed(2)}</strong>!</div>`;
     }
+    /* Math.pow(x,y) => (Mesmo principio do Python) x = valor base, y = valor que eleva a potencia */
 }
