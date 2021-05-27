@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
 
-    <title>Operações Aritméticas</title>
+    <title>Média de Notas de um Aluno</title>
 
 </head>
 
@@ -18,28 +18,26 @@
 
     <div class="container">
 
-        <h1>Operações Aritméticas</h1>
+        <h1>Média de Notas de um Aluno</h1>
 
         <div>
-            <label for="input1"> Informe um número:
-                <input id="input1" type="number">
+            <label for="input1"> Informe 1ª nota:
+                <input id="input1" type="text" placeholder="ex: 7.9">
             </label>
-
             <br>
-            
-            <label for="input2"> Informe outro número:
-                <input id="input2" type="number">
+            <label for="input2"> Informe 2ª nota:
+                <input id="input2" type="text" placeholder="ex: 5.75">
             </label>
-
         </div>
 
-        <button class="send-button" onclick="sendInfo()" type="submit">Enviar</button>
+        <button class="send-button"
+        onclick="calculate()" type="submit">Enviar</button>
 
         <div class="answer"></div>
 
     </div>
     
-    <script src="c007.js"></script>
+    <script src="ex007.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-"""EXERCÍCIO: Peça um valor ao usuário e mostre qual é o seu antecessor e o seu sucessor!"""
+# EXERCÍCIO: Peça um valor ao usuário e mostre qual é o seu antecessor e o seu sucessor!
 
 number1 = int(input('Digite um número: '))
 
