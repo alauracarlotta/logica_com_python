@@ -43,9 +43,34 @@ input {
     margin: 20px 40px 10px;
 }
 
-.error {
+.error,
+.false, 
+.true {
     display: block;
-    color: #F00;
     font-style: italic;
     font-weight: bolder;
+}
+
+.error,
+.false {
+    color: #F00;
+}
+
+.true {
+    color: rgb(29, 117, 29);
+}
+
+.info-span {
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: -8px;
+    right: 90px;
+    font-size: .5rem;
+}
+
+::placeholder {
+    font-style: italic;
 }
