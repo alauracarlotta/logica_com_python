@@ -8,6 +8,7 @@ cont = 1
     print(f'{cont} x {value} = {cont*value}') """
 
 while cont <= 10:
-    print(f'{cont} x {value} = {cont*value}')
+    print('-'*12)
+    print(f'{cont:2} x {value} = {cont*value}')
     cont+=1
 
