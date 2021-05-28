@@ -7,9 +7,9 @@ function calculate() {
     let wallArea = inputHeightNumber * inputWidthNumber;
     let divAnswer = document.querySelector('.answer');
 
-    if (inputHeight == "" || inputWidth == "") {
+    if (inputHeight == "" || inputWidth == "" || isNaN(inputHeightNumber) || isNaN(inputWidthNumber)) {
 
-        divAnswer.innerHTML = `<div class="answer error">Informe os dois valores!</div>`;
+        divAnswer.innerHTML = `<div class="answer error">Informe os dois valores válidos!</div>`;
 
     } else {
 

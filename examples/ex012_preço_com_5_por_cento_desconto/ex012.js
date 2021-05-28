@@ -4,7 +4,7 @@ function calculate() {
     let inputPriceNumber = Number(inputPrice);
     let divAnswer = document.querySelector('.answer');
 
-    if (inputPrice == "" || inputPrice <= -1) {
+    if (inputPrice == "" || inputPrice <= -1 || isNaN(inputPriceNumber)) {
 
         divAnswer.innerHTML = `<div class="answer error">INFORME UM VALOR VÁLIDO!</div>`;
 
