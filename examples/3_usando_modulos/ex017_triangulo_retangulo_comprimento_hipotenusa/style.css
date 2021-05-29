@@ -16,6 +16,10 @@ h1 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+img {
+    margin: 10px 0 20px;
+}
+
 input {
     margin: 10px;
 }
@@ -62,5 +66,4 @@ input {
 
 ::placeholder {
     font-style: italic;
-    color: #adadad;
 }
