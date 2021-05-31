@@ -32,3 +32,9 @@ play(song) """
 
 # ------------------------------------------
 
+import pygame
+
+pygame.mixer.init()
+pygame.mixer.music.load('trivium.wav')
+pygame.mixer_music.play()
+pygame.event.wait()
