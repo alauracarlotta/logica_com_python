@@ -20,6 +20,10 @@ input {
     margin: 10px;
 }
 
+select {
+    width: 200px;
+}
+
 .send-button {
     background-color: #ffaf37;
     border: none;
