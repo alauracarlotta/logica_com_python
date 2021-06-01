@@ -7,3 +7,10 @@
 # milhar: 1
 
 # Podemos fazer matematicamente falando ou como strings
+
+numbers = input('Digite um numero de 0 a 9999: ')
+
+print(f'Unidades: {numbers[3]}')
+print(f'Dezenas: {numbers[2]}')
+print(f'Centenas: {numbers[1]}')
+print(f'Milhar: {numbers[0]}')
