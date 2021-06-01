@@ -9,6 +9,6 @@ n4 = input('Qual é o aluno 4: ')
 
 listNames = [n1, n2, n3, n4]
 
-listPresentation = shuffle(listNames)
+shuffle(listNames)
 
-print(f'A ordem de apresentasção é {listNames}')
+print(f'A ordem de apresentação é {listNames}')

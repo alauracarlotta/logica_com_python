@@ -32,13 +32,13 @@ function addStudent() {
 function drawOrderStudentsPresentation() {
 
     divAnswer.innerHTML = "";
+    studentsListSorted = studentsList.sort();
+    console.log(studentsList)
 
     for (var i = 0; i < studentsList.length; i++){
-
-        let drawOrder = Math.round(Math.random() * studentsList.length-1);
-        studentDraw = studentsList[drawOrder];
-        divAnswer.innerHTML += `<div class="answer">${cont++}° aluno apresentar o trabalho: ${studentDraw}<div>`;
-        studentsList.splice(studentsList.length,drawOrder);        
+        
+        divAnswer.innerHTML += `<div class="answer">${cont++}° aluno apresentar o trabalho: ${studentsListSorted[i]}<div>`;
+               
     }
 
 }
