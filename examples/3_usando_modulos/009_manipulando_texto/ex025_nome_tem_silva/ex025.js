@@ -10,7 +10,7 @@ function isNumber(variable){
 
 function haveSilvaInTheName(variable) {
 
-    if (variable.indexOf('Silva') === 0 || variable.indexOf('silva') === 0) {
+    if (variable.indexOf('Silva') || variable.indexOf('silva')) {
         return true;
     } else {
         return false;
