@@ -19,7 +19,7 @@ function haveSanto(variable) {
 
 function confirmCity() {
 
-    if (isNumber(inputCity.value) || inputCity.length == "") {
+    if (isNumber(inputCity.value) || (inputCity.value).length == 0) {
         
         divAnswer.innerHTML = `<div class="answer error">Informe uma cidade válida!</div>`;
 
@@ -36,6 +36,9 @@ function confirmCity() {
             divAnswer.innerHTML += `<div class="answer">Não, a cidade informada foi a cidade de ${inputCity.value}!</div>`;
         }
     }
+
+    inputCity.value = "";
+    inputCity.focus();
 }
 
 let inputCity = document.querySelector('#input1');
