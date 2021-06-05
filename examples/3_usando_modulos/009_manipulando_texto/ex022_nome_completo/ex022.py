@@ -4,6 +4,7 @@
 # 3 - Quantas letras ao todo sem considera os espaços;
 # 4 - Quantas letras tem o primeiro nome.
 
+# teste
 name = input('Digite o seu nome: ')
 
 print(f'Seu nome com todas as letras maiúsculas são assim: {name.upper()}')
