@@ -3,7 +3,7 @@
 number = int(input('Informe um número inteiro: '))
 
 if number % 2 == 0:
-    print('Este número é PAR!')
+    print(f'O número {number} é PAR!')
 
 else:
-    print('Este número é ÍMPAR!')
+    print(f'O número {number} é ÍMPAR!')
