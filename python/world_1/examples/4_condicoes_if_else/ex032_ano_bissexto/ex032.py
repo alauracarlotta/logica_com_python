@@ -3,8 +3,7 @@
 year = int(input('Informe um ano: '))
 
 if year % 4 == 0:
-    print('ESSE É UM ANO BISSEXTO!')
+    print(f'{year},  ESSE É UM ANO BISSEXTO!')
 
 else:
-    print('Esse é um ano normal!')
-    
+    print(f'{year}, Esse é um ano normal!')
