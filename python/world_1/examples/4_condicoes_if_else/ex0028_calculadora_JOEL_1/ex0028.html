@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../../../../../favicon.ico" type="image/x-icon">
+
+    <title>Calculadora</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Calculadora</h1>
+
+        <label for="input1"> Informe o primeiro número:
+            <input id="input1" type="text">
+        </label>
+
+        <br>
+
+        <label for="input2"> Informe o primeiro número:
+            <input id="input2" type="text">
+        </label>
+
+        <br>
+
+        <button class="send-button" onclick="calculateAddition()" type="submit">+</button>
+        <button class="send-button" onclick="calculateSubstraction()" type="submit">-</button>
+        <button class="send-button" onclick="calculateMultiplication()" type="submit">x</button>
+        <button class="send-button" onclick="calculateDivision()" type="submit">/</button>
+        <button class="send-button" onclick="calculatePotentation()" type="submit">^</button>
+        <!-- <button class="send-button" onclick="calculate()" type="submit">√</button> -->
+
+        <div class="answer"></div>
+
+    </div>
+    
+    <script src="ex0028.js"></script>
+</body>
+
+</html>
