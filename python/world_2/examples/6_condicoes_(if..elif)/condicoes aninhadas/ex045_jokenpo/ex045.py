@@ -1,0 +1,1 @@
+# Crie um programa que faça o computador jogar com você o jokenpô.
