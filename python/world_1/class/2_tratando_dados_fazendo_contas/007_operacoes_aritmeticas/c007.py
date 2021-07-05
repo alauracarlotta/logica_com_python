@@ -8,7 +8,7 @@
 number1 = int(input('Digite um número: '))
 number2 = int(input('Digite outro número: '))
 
-print(f'{number1} + {number2} = {number1 + number2} e ', end='') #Se eu não quiser que quebre a linha a pesar de eu ter colocado um print, assim quebrando a próxima linha, acrescento o end='' com valor nada e assim não quebrará a próxima linha.
+print(f'{number1} + {number2} = {number1 + number2} e ', end='') #Se eu não quiser que quebre a linha apesar de eu ter colocado um print, assim quebrando a próxima linha, acrescento o end='' com valor nada e assim não quebrará a próxima linha.
 print(f'{number1} - {number2} = {number1 - number2} \n e {number1} x {number2} = {number1 * number2}') # \n = nova linha.
 print(f'{number1} : {number2} = {(number1 / number2):.3f}. A divisão inteira dá {number1 // number2} inteira e o resto da divisão é {number1 % number2}') # Esse trecho {(number1 / number2):.2f} serve para dizer quantas casas de ponto flutuante eu quero depois da virgula.
 print(f'{number1} ^ {number2} = {number1 ** number2}') 
