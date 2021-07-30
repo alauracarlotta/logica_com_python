@@ -1,5 +1,5 @@
 body {
-    background-color: #F7CA32;
+    background-color: #8642c5;
 }
 
 .container {
@@ -21,7 +21,7 @@ input {
 }
 
 .send-button {
-    background-color: #ffaf37;
+    background-color: #F7CA32;
     border: none;
     border-radius: 25px;
     color: #fff;
