@@ -13,12 +13,12 @@
         
         if ( !validInputs(houseValue , salaryValue , monthsOfPay) ) {
 
-            orcamento( salaryValue , monthsOfPay , monthPortion );
+            budget( salaryValue , monthsOfPay , monthPortion );
         }
         
     });
 
-    const orcamento = ( salaryValue , monthsOfPay , monthPortion ) => {
+    const budget = ( salaryValue , monthsOfPay , monthPortion ) => {
 
         if ( monthPortion <= ( salaryValue * 30 / 100 ) ) {
             message = `O seu emprestimo foi APROVADO! \nO valor de cada pacela será R$ ${( monthPortion.toFixed( 2 ) )} reais por mês por ${ monthsOfPay } meses que são ${( ( monthsOfPay / 12).toFixed( 0 ) )} anos e ${ ( ( monthsOfPay % 12 ).toFixed( 0 ) ) } mês (meses).`
