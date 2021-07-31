@@ -8,44 +8,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../../../../../../favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../../../../../../favicon.ico" type="image/x-icon">
 
-    <title>Financie sua casa</title>
+    <title>Empréstimo Bancário</title>
 
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="container" data-answer-form>
 
-        <h1>Financie a sua casa</h1>
+        <h1>Empréstimo Bancário</h1>
 
-        <label for="input1"> Qual o valor a financiar:
-            <input id="input1" placeholder="Use . para separar os centavos" type="text">
-        </label>
+        <div>
 
-        <br>
+            <label for="input1"> Informe o valor da casa: R$
+                <input id="input1" placeholder="R$ 500000.00" type="text">
+            </label>
 
-        <label for="input2"> Informe o valor do seu salário:
-            <input id="input2" placeholder="Use . para separar os centavos" type="text">
-        </label>
+            <br>
 
-        <br>
+            <label for="input2"> Infome o seu salário por mês: R$ 
+                <input id="input2" placeholder="R$ 1500.00" type="text">
+            </label>
 
-        <label for="input3"> Em quanto tempo pretende pagar:
-            <input id="input3" placeholder="Coloque a quantidade em meses" type="text">
-        </label>
+            <br>
 
-        <br>
+            <label for="input3"> Em quantos meses você quer pagar o financiamento? 
+                <input id="input3" placeholder="360" type="text">
+            </label>
 
-        <button class="send-button" id="sendButton" type="submit">Enviar</button>
+        </div>
 
-        <div class="answer"></div>
+        <button class="send-button" data-send-button type="submit">Enviar</button>
+        
+        <div data-result></div>
+        <!-- <div class="answer"></div> --> <!-- create appendChild -->
 
     </div>
     
     <script src="ex036.js"></script>
-    <script src="../../../../../../validate_inputs.js"></script>
+
 </body>
 
 </html>
