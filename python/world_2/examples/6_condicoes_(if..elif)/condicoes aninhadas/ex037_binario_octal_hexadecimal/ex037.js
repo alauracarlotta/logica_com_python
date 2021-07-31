@@ -6,11 +6,20 @@
     const buttonSendInfos = document.querySelector( '[data-send-button]' );
     buttonSendInfos.addEventListener( 'click' , function () {
 
-        const inputNumber = document.getElementById( 'input1' ).value;
+        const inputNumber = Number(document.getElementById( 'input1' ).value);
     
-        if (!validInputs(inputNumber, divHTML, message)) {
+        /* if (!validInputs(inputNumber, divHTML, message)) {
             console.log('test');
-        }
+        } */
+
+        let binario = inputNumber.toString(2)
+        console.log(binario);
+
+        let octal = inputNumber.toString(8)
+        console.log(octal);
+
+        let hexadecimal = inputNumber.toString(16)
+        console.log(hexadecimal);
         
     });
 

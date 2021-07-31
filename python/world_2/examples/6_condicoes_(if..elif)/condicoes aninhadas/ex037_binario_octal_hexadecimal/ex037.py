@@ -4,21 +4,25 @@
 # 2 - para octal
 # 3 - para hexadecimal
 
-number = float(input('Informe um número: '))
-opcao = int(input('Informe um número: '))
+number = int(input('Informe um número: '))
+opcao = int(input('Você quer convertê-lo para: \n1-Binário; \n2-Octal; \n3-Hexadecimal: \n'))
 conversao = 0
     
 
 if opcao == 1:
-    print('binario')
+    conversao = bin(number)
+    print(f'binario: {conversao}')
 
 elif opcao == 2:
-    print('octal')
+    conversao = oct(number)
+    print(f'octal: {conversao}')
+    
 
 elif opcao == 3:
-    print('hexadecimal')
+    conversao = hex(number)
+    print(f'hexadecimal: {conversao}')
 
 else:
-print('Tá tudo errado')
+    print('Tá tudo errado')
 
-print (conversao)
+
