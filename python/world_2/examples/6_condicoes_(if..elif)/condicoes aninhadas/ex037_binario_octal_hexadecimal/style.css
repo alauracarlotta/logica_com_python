@@ -21,6 +21,10 @@ input {
     padding: 5px 8px;
 }
 
+#input1 {
+    line-height: 1.2rem;
+}
+
 .send-button {
     background-color: #F7CA32;
     border: none;
