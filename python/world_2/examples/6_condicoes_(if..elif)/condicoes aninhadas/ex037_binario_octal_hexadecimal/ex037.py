@@ -23,6 +23,4 @@ elif opcao == 3:
     print(f'hexadecimal: {conversao}')
 
 else:
-    print('Tá tudo errado')
-
-
+    print('Digite uma opção válida!')
